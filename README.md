@@ -23,5 +23,5 @@ pip install -r requirements.txt
 
 If you are using Jupyter Notebook, you can start it as follows:
 
-[Jupyter Notebook](https://github.com/TongKim/ML-Apprenticeship-Take-Home/blob/main/sentence_transformer.ipynb)
+[Jupyter Notebook](https://github.com/TongKim/ML-Apprenticeship-Take-Home/blob/main/ML_Take-Home.ipynb)
 
