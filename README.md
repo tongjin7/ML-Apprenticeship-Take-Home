@@ -1,3 +1,4 @@
+![image](https://github.com/TongKim/ML-Apprenticeship-Take-Home/assets/97964780/3ea4ef2e-ba90-4678-854c-609c0c8e2f5f)
 # ML Apprenticeship Take-Home
 
 ## Environment Setup
