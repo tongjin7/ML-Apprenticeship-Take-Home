@@ -8,7 +8,7 @@
 First, clone this repository to your local environment: 
 
 ```python
-git clone https://github.com/TongKim/fetch_MLE
+git clone https://github.com/TongKim/ML-Apprenticeship-Take-Home
 cd ML-Apprenticeship-Take-Home
 ```
 
