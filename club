@@ -1,0 +1,21 @@
+// ==UserScript==
+// @name        The Club in advance
+// @match       *://*.theclub.digital/*
+// @match       *://*.sapphirelounge.digital/*
+// ==/UserScript==
+
+(function () {
+  const encryptVerySecurelyLol = (string) => {
+    if (!isNaN(string)) {
+      string = parseInt(string) + parseInt(string);
+    }
+    string = btoa(string);
+    return string.replace(/=+$/, '');
+  }
+
+  const geoVerifiedKey = encryptVerySecurelyLol("geo_verified");
+  if (!document.cookie.includes(geoVerifiedKey)) {
+    document.cookie = `${geoVerifiedKey}=1; Secure`;
+    window.location.reload();
+  }
+})()
